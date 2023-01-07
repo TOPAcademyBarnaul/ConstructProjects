@@ -1,0 +1,55 @@
+{
+	"name": "герой",
+	"plugin-id": "Sprite",
+	"sid": 555346024822825,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Platform",
+			"name": "Платформер",
+			"sid": 296617253196242
+		},
+		{
+			"behaviorId": "scrollto",
+			"name": "СледитьЗа",
+			"sid": 339674063265849
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 88,
+						"height": 209,
+						"originX": 0.9204545454545454,
+						"originY": 0.5311004784688995,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8233017,
+						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "Точка спрайта 1",
+								"x": 0.9090909090909091,
+								"y": 0.5167464114832536
+							}
+						],
+						"duration": 1
+					}
+				],
+				"sid": 478303401992577,
+				"name": "Стоит",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

@@ -1,0 +1,43 @@
+{
+	"name": "Спрайт7",
+	"plugin-id": "Sprite",
+	"sid": 641455043279742,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Anchor",
+			"name": "Якорь",
+			"sid": 781731848919557
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 768,
+						"height": 222,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5933284,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 262699184397900,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

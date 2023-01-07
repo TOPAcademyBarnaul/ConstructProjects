@@ -1,0 +1,88 @@
+{
+	"name": "Список событий 0",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Спрайт8",
+					"sid": 814371696584009,
+					"parameters": {
+						"object": "Ice_Block"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 622606740612580,
+					"parameters": {
+						"layout": "Макет 1"
+					}
+				}
+			],
+			"sid": 300841900661399
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 636006663119636,
+					"parameters": {
+						"interval-seconds": "1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-instvar",
+					"objectClass": "Текст",
+					"sid": 623299581418404,
+					"parameters": {
+						"instance-variable": "загрузка",
+						"value": "1"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "Текст",
+					"sid": 452081858194342,
+					"parameters": {
+						"text": "Текст.Text"
+					}
+				}
+			],
+			"sid": 585267414565605
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 182313239808047
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Аудио",
+					"sid": 197109890389369,
+					"parameters": {
+						"audio-file": "food_drink_beer_cap_pop_and_beer_poured",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 478043551762039
+		}
+	],
+	"sid": 787493785211799
+}

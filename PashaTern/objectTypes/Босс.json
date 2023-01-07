@@ -1,0 +1,64 @@
+{
+	"name": "Босс",
+	"plugin-id": "Sprite",
+	"sid": 237756058934915,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 543,
+						"height": 460,
+						"originX": 0.24125230202578268,
+						"originY": 0.45869565217391306,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8112872,
+						"collisionPoly": {
+							"points": [
+								0.16206261510128914,
+								0.19130434782608696,
+								0.5,
+								0.013043478260869565,
+								0.8895027624309392,
+								0.1282608695652174,
+								0.998158379373849,
+								0.5,
+								0.8011049723756906,
+								0.7652173913043478,
+								0.5,
+								0.9956521739130435,
+								0.16574585635359115,
+								0.8021739130434783,
+								0.01289134438305709,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "Точка спрайта 1",
+								"x": 0.22467771639042358,
+								"y": 0.4434782608695652
+							}
+						],
+						"duration": 1
+					}
+				],
+				"sid": 580341840191730,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

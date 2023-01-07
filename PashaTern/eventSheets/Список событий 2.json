@@ -1,0 +1,312 @@
+{
+	"name": "Список событий 2",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Клавиатура",
+					"sid": 507905579866802,
+					"parameters": {
+						"key": 37
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "герой",
+					"sid": 411732657074821,
+					"parameters": {
+						"state": "mirrored"
+					}
+				}
+			],
+			"sid": 344689293381314
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Клавиатура",
+					"sid": 196294456241686,
+					"parameters": {
+						"key": 39
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "герой",
+					"sid": 259221896537894,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				}
+			],
+			"sid": 494352762146322
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Клавиатура",
+					"sid": 672620419021058,
+					"parameters": {
+						"key": 32
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 343627370964950,
+					"parameters": {
+						"object-to-create": "snowball",
+						"layer": "0",
+						"x": "герой.ImagePointX(1)",
+						"y": "герой.ImagePointY(1)",
+						"create-hierarchy": false,
+						"template-name": "\"\""
+					}
+				}
+			],
+			"sid": 357017189801580
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-mirrored",
+					"objectClass": "герой",
+					"sid": 834731407081260
+				}
+			],
+			"actions": [],
+			"sid": 960889506914502,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "trigger-once-while-true",
+							"objectClass": "System",
+							"sid": 188932679754292
+						}
+					],
+					"actions": [
+						{
+							"id": "spawn-another-object",
+							"objectClass": "герой",
+							"sid": 535582927594359,
+							"parameters": {
+								"object": "snowball",
+								"layer": "0",
+								"image-point": "0",
+								"create-hierarchy": false
+							}
+						},
+						{
+							"id": "set-angle",
+							"objectClass": "snowball",
+							"sid": 902853885388983,
+							"parameters": {
+								"angle": "180"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "snowball",
+							"sid": 455889638441860
+						}
+					],
+					"sid": 947974054686515
+				}
+			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "snowball",
+					"sid": 223295943359214,
+					"parameters": {
+						"object": "Босс"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-width",
+					"objectClass": "ЗдоровьеБаосса",
+					"sid": 173122117068593,
+					"parameters": {
+						"width": "ЗдоровьеБаосса.Width-5"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "snowball",
+					"sid": 654740308596747
+				}
+			],
+			"sid": 184339442300370
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-width",
+					"objectClass": "ЗдоровьеБаосса",
+					"sid": 301143399307943,
+					"parameters": {
+						"comparison": 2,
+						"width": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Босс",
+					"sid": 805125111276920
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 548142323573949,
+					"parameters": {
+						"layout": "ВИН"
+					}
+				}
+			],
+			"sid": 389701460939108
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 768262810811248,
+					"parameters": {
+						"interval-seconds": "0.7"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "Босс",
+					"sid": 416077602906085,
+					"parameters": {
+						"object": "Пуля",
+						"layer": "0",
+						"image-point": "1",
+						"create-hierarchy": false
+					}
+				},
+				{
+					"id": "rotate-toward-position",
+					"objectClass": "Пуля",
+					"sid": 455692667381072,
+					"parameters": {
+						"degrees": "180",
+						"x": "герой.X",
+						"y": "герой.Y"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "Пуля",
+					"sid": 552340433699418,
+					"parameters": {
+						"state": "mirrored"
+					}
+				}
+			],
+			"sid": 702762988680690
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Пуля",
+					"sid": 616912900934372,
+					"parameters": {
+						"object": "герой"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-width",
+					"objectClass": "ЗдоровьяПингвина",
+					"sid": 355310903734435,
+					"parameters": {
+						"width": "ЗдоровьяПингвина.Width-15"
+					}
+				}
+			],
+			"sid": 215798686241567
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-width",
+					"objectClass": "ЗдоровьяПингвина",
+					"sid": 487643034081474,
+					"parameters": {
+						"comparison": 3,
+						"width": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 664355233082084,
+					"parameters": {
+						"layout": "ПРОИГРАЛ"
+					}
+				}
+			],
+			"sid": 341212206295249
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 489869204262287
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Аудио",
+					"sid": 564140344709490,
+					"parameters": {
+						"audio-file": "9925bd28798144c",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 700808780383069
+		}
+	],
+	"sid": 627019842296685
+}

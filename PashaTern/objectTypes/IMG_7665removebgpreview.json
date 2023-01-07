@@ -1,0 +1,43 @@
+{
+	"name": "IMG_7665removebgpreview",
+	"plugin-id": "Sprite",
+	"sid": 427848737993668,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Anchor",
+			"name": "Якорь",
+			"sid": 362518556093185
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 88,
+						"height": 209,
+						"originX": 1.3409090909090908,
+						"originY": 1.131578947368421,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 35554,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 846681650927721,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

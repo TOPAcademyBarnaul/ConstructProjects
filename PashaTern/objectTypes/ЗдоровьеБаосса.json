@@ -1,0 +1,26 @@
+{
+	"name": "ЗдоровьеБаосса",
+	"plugin-id": "TiledBg",
+	"sid": 452545408203884,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Anchor",
+			"name": "Якорь",
+			"sid": 449137153307757
+		}
+	],
+	"effectTypes": [],
+	"image": {
+		"width": 250,
+		"height": 250,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "",
+		"exportFormat": "lossless",
+		"exportQuality": 0.8,
+		"imageSpriteId": 7707938,
+		"useCollisionPoly": true
+	}
+}

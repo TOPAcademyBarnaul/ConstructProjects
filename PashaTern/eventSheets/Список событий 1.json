@@ -1,0 +1,243 @@
+{
+	"name": "Список событий 1",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Клавиатура",
+					"sid": 666604297327340,
+					"parameters": {
+						"key": 37
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "герой",
+					"sid": 136414306325920,
+					"parameters": {
+						"state": "mirrored"
+					}
+				}
+			],
+			"sid": 285670898364524
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Клавиатура",
+					"sid": 271693848031362,
+					"parameters": {
+						"key": 39
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "герой",
+					"sid": 871315307833720,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				}
+			],
+			"sid": 690743565095853
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "герой",
+					"sid": 778658635970633,
+					"parameters": {
+						"object": "Ice_Block"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Ice_Block",
+					"sid": 931247859959927
+				},
+				{
+					"id": "play",
+					"objectClass": "Аудио",
+					"sid": 311801023245773,
+					"parameters": {
+						"audio-file": "Пыво",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 309534347764629
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Клавиатура",
+					"sid": 204661870775984,
+					"parameters": {
+						"key": 32
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 287033096160451,
+					"parameters": {
+						"object-to-create": "snowball",
+						"layer": "0",
+						"x": "герой.ImagePointX(1)",
+						"y": "герой.ImagePointY(1)",
+						"create-hierarchy": false,
+						"template-name": "\"\""
+					}
+				}
+			],
+			"sid": 787348989016750
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-mirrored",
+					"objectClass": "герой",
+					"sid": 518961644345892
+				}
+			],
+			"actions": [],
+			"sid": 287452872905860,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "trigger-once-while-true",
+							"objectClass": "System",
+							"sid": 647509934947827
+						}
+					],
+					"actions": [
+						{
+							"id": "spawn-another-object",
+							"objectClass": "герой",
+							"sid": 700670469307911,
+							"parameters": {
+								"object": "snowball",
+								"layer": "0",
+								"image-point": "0",
+								"create-hierarchy": false
+							}
+						},
+						{
+							"id": "set-angle",
+							"objectClass": "snowball",
+							"sid": 410889638887675,
+							"parameters": {
+								"angle": "180"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "snowball",
+							"sid": 955958416931389
+						}
+					],
+					"sid": 181838706155710
+				}
+			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Клавиатура",
+					"sid": 544095363458441,
+					"parameters": {
+						"key": 32
+					}
+				}
+			],
+			"actions": [],
+			"sid": 230408654443037
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "герой",
+					"sid": 714651121454430,
+					"parameters": {
+						"object": "image_5ef95b279b"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 439581499465480,
+					"parameters": {
+						"layout": "Макет 2"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Аудио",
+					"sid": 900890286359798,
+					"parameters": {
+						"audio-file": "бабулька",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 743553164286683
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 582901885885880
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Аудио",
+					"sid": 904035968767278,
+					"parameters": {
+						"audio-file": "Korol_i_SHut_-_Mjortvyjj_Anarkhist_62571796",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 904851780916065
+		}
+	],
+	"sid": 712774616576096
+}

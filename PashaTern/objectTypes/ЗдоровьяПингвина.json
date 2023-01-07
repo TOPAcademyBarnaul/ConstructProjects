@@ -1,0 +1,26 @@
+{
+	"name": "ЗдоровьяПингвина",
+	"plugin-id": "TiledBg",
+	"sid": 367874215347300,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Anchor",
+			"name": "Якорь",
+			"sid": 480496730924876
+		}
+	],
+	"effectTypes": [],
+	"image": {
+		"width": 250,
+		"height": 250,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "",
+		"exportFormat": "lossless",
+		"exportQuality": 0.8,
+		"imageSpriteId": 9442891,
+		"useCollisionPoly": true
+	}
+}

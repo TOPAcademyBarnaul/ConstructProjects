@@ -1,0 +1,351 @@
+{
+	"projectFormatVersion": 1,
+	"savedWithRelease": 31702,
+	"name": "пингвин",
+	"runtime": "c3",
+	"useWorker": "auto",
+	"bundleAddons": false,
+	"usedAddons": [
+		{
+			"type": "plugin",
+			"id": "Sprite",
+			"name": "Спрайт",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Keyboard",
+			"name": "Клавиатура",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "TiledBg",
+			"name": "Тайловый фон",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Text",
+			"name": "Текст",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Audio",
+			"name": "Аудио",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "solid",
+			"name": "Твердый",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Platform",
+			"name": "Платформер",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "scrollto",
+			"name": "Следить за",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Bullet",
+			"name": "Пуля",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Anchor",
+			"name": "Якорь",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
+		}
+	],
+	"uniqueId": "fi7bxgwmh6p",
+	"objectTypes": {
+		"items": [
+			"Спрайт",
+			"Спрайт3",
+			"герой",
+			"Клавиатура",
+			"Ice_Block",
+			"seal",
+			"snowball",
+			"bg",
+			"Босс",
+			"ЗдоровьяПингвина",
+			"ЗдоровьеБаосса",
+			"Спрайт6",
+			"Спрайт7",
+			"Пуля",
+			"ice",
+			"Текст",
+			"Спрайт5",
+			"Спрайт8",
+			"Аудио",
+			"depositphotos_70782139stockillustrationbeerfoambackground",
+			"istockphoto480729989170667a",
+			"image_5ef95b279b",
+			"pngtransparentpreschoolkindergartenotherschildcomputerpreschoolremovebgpreview",
+			"x",
+			"IMG_7665removebgpreview",
+			"IMG_",
+			"ТайловыйФон",
+			"Победавсегдаснамиremovebgpreview",
+			"IMG_2",
+			"maxresdefault"
+		],
+		"subfolders": []
+	},
+	"autosaveData": null,
+	"containers": [],
+	"families": {
+		"items": [],
+		"subfolders": []
+	},
+	"layouts": {
+		"items": [
+			"Макет 0",
+			"Макет 1",
+			"Макет 2",
+			"ВИН",
+			"ПРОИГРАЛ"
+		],
+		"subfolders": []
+	},
+	"eventSheets": {
+		"items": [
+			"Список событий 1",
+			"Список событий 2",
+			"Список событий 0"
+		],
+		"subfolders": []
+	},
+	"rootFileFolders": {
+		"script": {
+			"items": [],
+			"subfolders": []
+		},
+		"sound": {
+			"items": [
+				{
+					"name": "хруст льда.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 514194654395023,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "Пыво.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 924161586681865,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "бабулька.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 812759589996925,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "food_drink_beer_cap_pop_and_beer_poured.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 123083224059580,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "Korol_i_SHut_-_Mjortvyjj_Anarkhist_62571796.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 334515263331626,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "9925bd28798144c.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 656244229898325,
+					"file-info": {
+						"purpose": "none"
+					}
+				}
+			],
+			"subfolders": []
+		},
+		"music": {
+			"items": [],
+			"subfolders": []
+		},
+		"video": {
+			"items": [],
+			"subfolders": []
+		},
+		"font": {
+			"items": [],
+			"subfolders": []
+		},
+		"icon": {
+			"items": [
+				{
+					"name": "Иконка-16.png",
+					"type": "image/png",
+					"sid": 994546180440718,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "Иконка-32.png",
+					"type": "image/png",
+					"sid": 597067304202172,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "Иконка-64.png",
+					"type": "image/png",
+					"sid": 309510271040000,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "Иконка-128.png",
+					"type": "image/png",
+					"sid": 200124657013595,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "Иконка-512.png",
+					"type": "image/png",
+					"sid": 821893878748004,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "Загрузка-логотипа.png",
+					"type": "image/png",
+					"sid": 496989695978433,
+					"icon-info": {
+						"purpose": "loading-logo"
+					}
+				},
+				{
+					"name": "Иконка-256.png",
+					"type": "image/png",
+					"sid": 441225360983824,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				}
+			],
+			"subfolders": []
+		},
+		"general": {
+			"items": [],
+			"subfolders": []
+		}
+	},
+	"timelines": {
+		"items": [
+			"Шкала 1"
+		],
+		"subfolders": [
+			{
+				"items": [],
+				"subfolders": []
+			}
+		]
+	},
+	"properties": {
+		"description": "",
+		"version": "1.0.0.0",
+		"author": "",
+		"authorEmail": "",
+		"authorWebsite": "",
+		"appId": "",
+		"pixelRounding": false,
+		"zAxisScale": "normalized",
+		"fov": 0.7853981633974483,
+		"useLoaderLayout": false,
+		"fullscreenMode": "letterbox-scale",
+		"fullscreenQuality": "high",
+		"viewportFit": "auto",
+		"backgroundColor": [
+			0,
+			0,
+			0,
+			0
+		],
+		"splashColor": [
+			1,
+			1,
+			1,
+			0
+		],
+		"useThemeColor": false,
+		"themeColor": [
+			1,
+			1,
+			1,
+			0
+		],
+		"orientations": "landscape",
+		"webgpu": "auto",
+		"gpuPreference": "high-performance",
+		"scriptsType": "module",
+		"framerateMode": "vsync",
+		"compositingMode": "standard",
+		"sampling": "trilinear",
+		"downscaling": "medium",
+		"renderingMode": "auto",
+		"anisotropicFiltering": "auto",
+		"maxSpriteSheetSize": 2048,
+		"loaderStyle": "splash",
+		"preloadSounds": true,
+		"cordovaiOSScheme": "app",
+		"cordovaAndroidScheme": "https",
+		"autoReloadScriptsOnPreview": false,
+		"exportFileStructure": "flat"
+	},
+	"viewportWidth": 1920,
+	"viewportHeight": 1080,
+	"firstLayout": null
+}

@@ -1,0 +1,17 @@
+{
+	"name": "Текст",
+	"plugin-id": "Text",
+	"sid": 179153437356323,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "загрузка",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 549904338864393
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": []
+}

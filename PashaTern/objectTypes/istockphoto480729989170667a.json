@@ -1,0 +1,37 @@
+{
+	"name": "istockphoto480729989170667a",
+	"plugin-id": "Sprite",
+	"sid": 822961624635215,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 585,
+						"height": 293,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3436842,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 885628496265379,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
